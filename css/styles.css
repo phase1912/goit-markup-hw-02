@@ -1,0 +1,103 @@
+:root {
+    --font-primary: "Roboto", "Arial", sans-serif;
+    --color-navy-blue: #2E2F42;
+    --color-ocean: #404BBF;
+    --color-iris: #4D5AE5;
+    --color-white: WHITE;
+    --color-cloud: #F4F4FD;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo.logo-footer {
+    color: var(--color-white);
+}
+
+.logo.logo-header {
+    color: var(--color-navy-blue);
+}
+
+.nav-link {
+    color: var(--color-navy-blue);
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--color-ocean);
+}
+
+.nav-link.active:active {
+    text-decoration: underline;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.first-section {
+    background-color: var(--color-navy-blue);
+}
+
+.team-section {
+    background-color: var(--color-cloud);
+}
+
+.first-section .main-title {
+    color: var(--color-white);
+}
+
+.first-section-button {
+    background-color: var(--color-iris);
+    color: var(--color-white);
+}
+
+.first-section-button:hover,
+.first-section-button:focus {
+    color: var(--color-white);
+    background-color: var(--color-ocean);
+}
+
+.footer {
+    background-color: var(--color-navy-blue);
+    color: var(--color-white);
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    color: var(--color-navy-blue);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    background-color: var(--color-white);
+}
