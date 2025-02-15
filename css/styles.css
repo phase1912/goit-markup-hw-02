@@ -8,7 +8,7 @@
     --color-slate: #434455;
 }
 
-.logo {
+.logo-header {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -16,9 +16,17 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
+    color: var(--color-iris);
 }
 
-.logo.logo-footer {
+.logo-footer {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
     color: var(--color-iris);
 }
 
@@ -75,6 +83,7 @@
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: var(--color-navy-blue);
 }
 
 .card {
@@ -86,6 +95,7 @@
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
 }
 
 .card-text {
@@ -139,7 +149,7 @@ ul {
 }
 
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--color-body);
     font-weight: 400;
     font-size: 16px;
